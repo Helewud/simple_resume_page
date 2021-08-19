@@ -1,0 +1,22 @@
+    {
+  "name": "hng-task-2",
+  "version": "1.0.0",
+  "description": "a resume builder",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "author": "Okikijesu Elewude",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "pug": "^3.0.2"
+  }
+}

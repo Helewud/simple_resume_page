@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  margin: 0 30vw 0 30vw;
+  font-family: "Nunito", sans-serif;
+  background-color: #1a1a1d;
+}
+
+h1 {
+  padding-top: 100px;
+  margin-bottom: -10px;
+  font-size: 4.7em;
+  text-align: center;
+}
+
+h1,
+h3 {
+  color: #c3073f;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: #b4b4b8;
+}
+a:hover {
+  color: #bd0f54;
+}
+
+hr {
+  background-color: #b4b4b8;
+  height: 1.5px;
+  border-style: none;
+}
+
+.sub {
+  margin-left: 5vw;
+}
+
+.sub > p {
+  color: #b4b4b8;
+}
+
+.sub > h5,
+.sub > small {
+  color: #bd0f54;
+}
+.sub > h5 {
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.sub > small {
+  font-weight: 500;
+}
+
+footer {
+  padding-bottom: 10vh;
+}
+
+label[for="email"],
+.send > small {
+  font-size: 1.4em;
+  color: #b4b4b8;
+}
+
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: #b4b4b8;
+  border-radius: 4px;
+}
+
+input[type="email"] {
+  height: 60px;
+  font-size: 1.2em;
+  background-color: #1a1a1d;
+  border: 2px solid #b4b4b8;
+}
+
+input[type="submit"] {
+  border-style: none;
+  font-size: 1em;
+  font-weight: 6300;
+  color: #8b063c;
+  margin-bottom: 100px;
+}
+
+input[type="submit"]:hover {
+  background-color: #df1854;
+  color: #1a1a1d;
+}
+
+.send > div > img {
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+.sponsors {
+  margin-left: 50px;
+  word-spacing: 30px;
+  font-size: 1.7em;
+}
