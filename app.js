@@ -12,12 +12,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(morgan("common"));
 app.use(helmet());
 
-app.use("/", index);
 app.set("view engine", "pug");
 
-// app.get("/", (req, res) => {
-//   res.send("Hello World!");
-// });
+app.use("/", index);
 
 const port = process.env.PORT || "8000";
 app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
